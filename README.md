@@ -1,5 +1,7 @@
 # Cryo_LCVCO
 
+Repository containing the design and simulations of an LC VCO (Voltage-Controlled Oscillator), developed in CMOS technology for operation at room temperature and cryogenic conditions.
+
 Projeto de VCO (Voltage Controlled Oscillator) para 4.9 GHz em IHP 130nm.
 
 | Parâmetro          | Valor           |
