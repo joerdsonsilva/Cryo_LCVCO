@@ -21,7 +21,7 @@ The LC-VCO schematic was implemented in the Cadence Virtuoso environment, using 
 
 ## Input and Output of a Cross-Coupled LC VCO:
 
-- LOP2 and LON2-: Differential output pair
+- LOP2 and LON2: Differential output pair
 - VCC2: Power supply terminal
 - ICC2: Bias current terminal
 - VCTR2: Control Voltage of the varactor
