@@ -1,22 +1,30 @@
-# Cryo_LCVCO
 
-Repository containing the design and simulations of an LC VCO (Voltage-Controlled Oscillator), developed in CMOS technology for operation at room temperature and cryogenic conditions.
+# VCO
 
-## VCO
+The LC-VCO schematic was implemented in the Cadence Virtuoso environment, using the technology available in the SG13G2 folder for room-temperature simulations. To enable operation under cryogenic conditions, transistor characterization was provided by IHP and made available in the SG13G2C folder, allowing for the analysis of device behavior at low temperatures. The schematic and the testbench were implemented according to Figures 1 and 2, respectively.
 
-The topology used is a cross-coupled LC VCO (LCVCO), as illustrated in the figure below. The oscillator employs an RLC tank with a pair of cross-coupled transistors to provide the feedback necessary for oscillation, while a current mirror sets the current of the cross-coupled pair, ensuring stability and control of the operating point.
+![Schematic](../Images/Schematic.png)
+*Figure 1: LC-VCO schematic.*
 
-![Topologia do VCO](Images/Schematic.png) 
-*Figure 1: Cross-Coupled LC VCO Topology with Differential Output.* 
+![Testbench](../Images/Testbench.png)
+*Figure 2: Testbench Setup for the LCVCO.*
 
-![Topologia do VCO](Images/Testbench.png) 
-*Figure 1: Cross-Coupled LC VCO Topology with Differential Output.* 
-Input and Output of a Cross-Coupled LC VCO:
+## Input and Output of a Cross-Coupled LC VCO:
 
-- LO+ and LO-: Differential output pair
-- VCC: Power supply terminal
-- ICC: Bias current terminal
-- VCTR: Control Voltage of the varactor
+- LOP2 and LON2-: Differential output pair
+- VCC2: Power supply terminal
+- ICC2: Bias current terminal
+- VCTR2: Control Voltage of the varactor
 - GND: Ground terminal
+
+## Parameters
+
+| Parameter               | Value   (300 K)     | Value   (4 K)      |
+| ----------------------- | ------------------- | -------------------- |
+| Technology              | IHP (SG13G2) 130 nm | IHP (SG13G2C) 130 nm |
+| Control Voltage (Vctrl) | 0–3 V               | 0–3 V                |
+| Supply Voltage          | 1.5 V               | 1.5 V                | 
+| Bias Current            | 6 mA                | 6 mA                 |
+
 
 
