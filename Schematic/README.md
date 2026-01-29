@@ -21,4 +21,14 @@ Input and Output of a Cross-Coupled LC VCO:
 - VCTR: Control Voltage of the varactor
 - GND: Ground terminal
 
+- ## Parameters
+
+| Parameter               | Value               |
+| ----------------------- | ------------------- |
+| Technology              | IHP (SG13G2) 130 nm |
+| Control Voltage (Vctrl) | 0–3 V               |
+| Supply Voltage          | 1.5 V               |
+| Bias Current            | 6 mA                |
+
+
 
