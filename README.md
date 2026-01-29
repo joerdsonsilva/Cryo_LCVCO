@@ -9,13 +9,18 @@ The topology used is a cross-coupled LC VCO (LCVCO), as illustrated in the figur
 ![Topologia do VCO](Images/LCVCO.png)
 *Figure 1: Cross-Coupled LC VCO Topology with Differential Output.*
 
+.. image:: Images/LCVCO.png
+    :align: center
+    :alt: Schematic Oscilator
+    :width: 800
+
 Input and Output of a Cross-Coupled LC VCO:
 
-LO+ and LO-: Differential output pair
-VCC: Power supply terminal
-ICC: Bias current terminal
-VCTR: Control Voltage of the varactor
-GND: Ground terminal
+- LO+ and LO-: Differential output pair
+- VCC: Power supply terminal
+- ICC: Bias current terminal
+- VCTR: Control Voltage of the varactor
+- GND: Ground terminal
 
 ## Parameters
 
