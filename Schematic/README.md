@@ -2,6 +2,12 @@
 # VCO
 The LC-VCO schematic was implemented in the Cadence Virtuoso environment, using the technology available in the SG13G2 folder for room-temperature simulations. To enable operation under cryogenic conditions, transistor characterization was provided by IHP and made available in the SG13G2C folder, allowing for the analysis of device behavior at low temperatures. The schematic and the testbench were implemented according to Figures 1 and 2, respectively.
 
+![Schematic](../Images/Schematic.png)
+*Figure 1: LC-VCO schematic.*
+
+![Testbench](../Images/Testbench.png)
+*Figure 2: Testbench Setup for the LCVCO.*
+
 ## Specifications
 
 | Component  | Value                  |
@@ -12,13 +18,6 @@ The LC-VCO schematic was implemented in the Cadence Virtuoso environment, using 
 | C₁, C₂     | 125 fF                 |
 | R_p1, R_p2 | 222 Ω                  |
 | L₁, L₂     | 2 nH                   |
-
-
-![Schematic](../Images/Schematic.png)
-*Figure 1: LC-VCO schematic.*
-
-![Testbench](../Images/Testbench.png)
-*Figure 2: Testbench Setup for the LCVCO.*
 
 ## Input and Output of a Cross-Coupled LC VCO:
 
